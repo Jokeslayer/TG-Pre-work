@@ -28,6 +28,9 @@ p{
   text-transform: capitalize;
 }
 
+h2.destination {
+  font-family: cursive;
+}
 
 .publish-time{
   color: gray;
