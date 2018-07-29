@@ -25,6 +25,10 @@ p{
   text-transform: capitalize;
 }
 
+.publish-time{
+  color: gray;
+}
+
 .container {
   margin: 0 auto;
   max-width: 940px;
