@@ -12,6 +12,15 @@ p{
    font-family: Arial;"
 }
 
+.title {
+  color: teal;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+
 .container {
   margin: 0 auto;
   max-width: 940px;
