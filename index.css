@@ -20,6 +20,10 @@ p{
   text-transform: uppercase;
 }
 
+#article-title{
+  font-family:cursive;
+  text-transform: capitalize;
+}
 
 .container {
   margin: 0 auto;
