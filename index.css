@@ -32,6 +32,10 @@ h2.destination {
   font-family: cursive;
 }
 
+.description h5{
+  color: teal;
+}
+
 .publish-time{
   color: gray;
 }
