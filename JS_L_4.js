@@ -16,8 +16,10 @@ pressPowerButton();
 pressPowerButton();
 // Output: Calculator turning off.
 
-const takeOrder = (topping) => {
-  console.log('Order: pizza topped with'+topping);
+const takeOrder = (topping, crustType) => {
+  console.log('Order:'+ crustType+ ' pizza topped with ' + topping);
 };
 
-takeOrder('Ziti');
+takeOrder('mushrooms','thin crust');
+takeOrder('Ziti','regular');
+takeOrder('chicken','Stuffed crust');
