@@ -48,9 +48,17 @@ else{
 
 let moonPhase = 'full';
 
-if(moonPhase){
+let isFoggyNight = false;
+
+if(moonPhase=== 'full' || isFoggyNight){
   console.log('Howl!');
 }
+else if(moonPhase === 'mostly full'){
+  console.log('Arms and legs are getting ');
+}
+else if(moonPhase === 'mostly new'){
+  console.log('Back on two feet');
+}
 else{
-  console.log('I swear I am not a werewolf.')
+  console.log('Invalid moon phase')
 }
