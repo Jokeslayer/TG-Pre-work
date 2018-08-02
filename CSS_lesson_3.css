@@ -39,7 +39,9 @@ body {
 }
 
 #main {
+  height: 1000px;
   margin: 0 auto;
+  overflow: scroll;
   padding: 40px;
   text-align: center;
   width: 400px;
@@ -78,8 +80,8 @@ p {
 }
 
 .pull-quote {
-  width: 350px;
   margin: 0 auto;
+  width: 400px;
 }
 
 .byline {
