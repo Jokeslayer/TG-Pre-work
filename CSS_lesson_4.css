@@ -4,6 +4,11 @@ body {
   padding: 50px 60px;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+
 h1 {
   color: #004E89;
   font-family: 'Yantramanav', sans-serif;
