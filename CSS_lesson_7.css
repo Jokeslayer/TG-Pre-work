@@ -1,7 +1,17 @@
+/* SPECIAL NOTE
+
+The Glegoo fontface described in the CSS below this comment WILL NOT FUNCTION.
+for whatever reason, the font files were uncopyable from Codeacademy.com, so the
+files needed to make it function in this code ARE NOT HERE.
+
+So, while the code for the final excercise of Lesson 7 is correct, I am leaving
+it commented out on my repo copy
+
 @font-face{
   font-family: 'Glegoo';
   src: url(../fonts/Glegoo-Regular.ttf) format('truetype');
 }
+*/
 
 /* latin */
 @font-face {
