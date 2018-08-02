@@ -31,3 +31,17 @@ console.log(notDefined);
 let valueless;
 
 console.log(valueless);
+
+let molecule = 16;
+let particle = 18;
+let assay = 3;
+
+molecule += 16;
+
+particle *= 6.02;
+
+assay++;
+
+let favoriteAnimal = 'bearded dragon';
+
+console.log('My favorite animal ='+favoriteAnimal);
