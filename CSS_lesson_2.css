@@ -11,6 +11,7 @@ body {
 
 h1 {
   color: #FFF;
+  text-align: center;
   font-size: 2em;
   padding-top: 100px;
   width: 100%;
@@ -31,7 +32,6 @@ h2 {
 
 p {
   color: AliceBlue;
-  font-size: 18px;
   line-height: 1.3em;
   text-align: left;
   width: 100%;
@@ -50,6 +50,8 @@ p {
 }
 
 .caption {
+  background-color: white;
+  color: black;
   display: block;
   font-family: 'Playfair Display', serif;
   font-size: 14px;
