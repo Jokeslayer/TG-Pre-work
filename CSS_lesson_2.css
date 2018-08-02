@@ -31,10 +31,13 @@ h2 {
 
 p {
   color: AliceBlue;
+  font-size: 18px;
   line-height: 1.3em;
   text-align: left;
   width: 100%;
   font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .byline {
