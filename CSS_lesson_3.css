@@ -25,6 +25,7 @@ body {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
   background-size: cover;
   background-position: bottom center;
+  height: 700px;
   width: 100%;
 }
 
@@ -32,6 +33,7 @@ body {
   position: relative;
   top: 50px;
   margin: 0 auto;
+  width: 400px;
 }
 
 #main {
@@ -68,6 +70,7 @@ p {
 }
 
 .pull-quote {
+  width: 350px;
 }
 
 .byline {
