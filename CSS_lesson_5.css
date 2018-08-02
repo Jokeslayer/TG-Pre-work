@@ -6,8 +6,9 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
-  position: absolute;
+  position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 ul {
@@ -79,7 +80,9 @@ footer {
   background-color: #DBE9EE;
   box-sizing: border-box;
   padding: 40px;
+  position: relative;
   text-align: center;
+  top: 200px;
   width: 100%;
 }
 
