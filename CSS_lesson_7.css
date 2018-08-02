@@ -100,7 +100,9 @@ a.home {
   color: #4C4C4C;
 }
 
-/* Font Card Sections */
+.space .sample .text{
+  font-family: "Space Mono", monospace;
+}
 
 .font-card {
   background-color: #ffffff;
@@ -129,9 +131,13 @@ a.home {
   font-size: 100px;
 }
 
-/* Add styles for the Garamond font here */
+.garamond .sample .text{
+  font-family: "Garamond", serif;
+}
 
-/* Add styles for the Helvetica font here */
+.helvetica .sample .text{
+  font-family: "Helvetica", sans-serif;
+}
 
 /* Add styles for the Space Mono font here */
 
