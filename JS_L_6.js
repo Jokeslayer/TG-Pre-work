@@ -33,3 +33,21 @@ groceryList.unshift('popcorn');
 console.log(groceryList.slice(1,4));
 
 console.log(groceryList);
+
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments.push('salt');
+
+console.log(condiments);
+
+condiments = ['hello world'];
+
+console.log(condiments);
+
+utensils.pop();
+
+console.log(utensils);
+
+utensils = ['fork'];
