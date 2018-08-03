@@ -23,5 +23,3 @@ const visibleLightWaves = () => {
 };
 
 visibleLightWaves();
-
-console.log(lightWaves);
