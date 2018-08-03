@@ -6,6 +6,6 @@ for (let i = 0; i<cookies.length; i++) {
 
 let vacationSpots = ['Venice', 'Athens', 'Florence']
 
-console.log(vacationSpots[0]);
-console.log(vacationSpots[1]);
-console.log(vacationSpots[2]);
+for(let vacationSpotIndex = 0;vacationSpotIndex < vacationSpots.length;vacationSpotIndex++){
+  console.log('I would love to visit '+vacationSpots[vacationSpotIndex]);
+}
