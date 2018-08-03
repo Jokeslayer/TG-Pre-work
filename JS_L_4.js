@@ -42,3 +42,25 @@ const getTotal = (itemCount) =>{
 };
 
 console.log(getTotal(orderCount));
+
+
+function isGreaterThan(numberOne,numberTwo){
+  if(numberOne > numberTwo){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+
+isGreaterThan(5,2);
+
+isGreaterThan(4,10);
+
+const isGreaterThan = (numberOne, numberTwo) =>{
+  if(numberOne > numberTwo){
+    return true;
+  } else {
+    return false;
+  }
+};
