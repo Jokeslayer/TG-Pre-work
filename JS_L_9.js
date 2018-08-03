@@ -4,7 +4,7 @@ let person = {
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM',
   sayHello: function(){
-  	return 'Hello, There!'
+  	return 'Hello, my name is '+ this.name
 	},
 	sayGoodbye(){
     return 'Goodbye!'
