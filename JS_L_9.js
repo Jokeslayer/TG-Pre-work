@@ -5,7 +5,10 @@ let person = {
   weekAlarm: 'Alarm set to 7AM',
   sayHello: function(){
   	return 'Hello, There!'
-	}
+	},
+	sayGoodbye(){
+    return 'Goodbye!'
+  }
 };
 
 person.hobbies = ['reading', 'videogames'];
