@@ -1,9 +1,11 @@
-const Airplane = {
-};
+Airplane.availableAirplanes = [
+{
+  name: 'AeroJet',
+  fuelCapacity: 800
+ },
+ {name: 'SkyJet',
+  fuelCapacity: 500
+ }
+];
 
-module.exports = {
-  myAirplane:"CloudJet",
-  displayAirplane: function() {
-    return this.myAirplane;
-  }
-};
+export default Airplane;
