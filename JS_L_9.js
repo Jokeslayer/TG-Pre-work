@@ -7,6 +7,8 @@ let person = {
 
 person.hobbies = ['reading', 'videogames'];
 
+person.hobbies = ['listening to audiobooks'];
+
 console.log(person['name']);
 console.log(person['age']);
 
