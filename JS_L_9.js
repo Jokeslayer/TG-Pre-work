@@ -8,8 +8,13 @@ let person = {
 	},
 	sayGoodbye(){
     return 'Goodbye!'
-  }
+  },
 };
+
+let friend = {
+  name: 'Ryan',
+}
+friend.sayHello = person.sayHello;
 
 person.hobbies = ['reading', 'videogames'];
 
@@ -30,3 +35,4 @@ if (day === 'Saturday' || day === 'Sunday' ) {
 console.log(person[alarm]);
 console.log(person['hobbies']);
 console.log(person.sayHello());
+console.log(friend.sayHello());
