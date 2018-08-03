@@ -16,10 +16,29 @@ pressPowerButton();
 pressPowerButton();
 // Output: Calculator turning off.
 
+let orderCount = 0;
+
 const takeOrder = (topping, crustType) => {
-  console.log('Order:'+ crustType+ ' pizza topped with ' + topping);
+  orderCount++;
+  console.log('Order: ' + crustType + ' pizza topped with ' + topping);
 };
 
-takeOrder('mushrooms','thin crust');
-takeOrder('Ziti','regular');
-takeOrder('chicken','Stuffed crust');
+takeOrder('mushroom', 'thin crust');
+takeOrder('spinach', 'whole wheat');
+takeOrder('pepperoni', 'brooklyn style');
+
+const getSubTotal = (itemCount) => {
+  return itemCount * 7.5;
+};
+
+console.log(getSubTotal(orderCount));
+
+const getTax = (itemCount) =>{
+  return getSubTotal(itemCount) * 0.06;
+};
+
+const getTotal = (itemCount) =>{
+  return getSubTotal(itemCount) + getTax(itemCount);
+};
+
+console.log(getTotal(orderCount));
