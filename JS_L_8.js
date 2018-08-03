@@ -4,14 +4,12 @@ fruits.forEach(fruit => console.log('I want to eat a '+fruit));
 
 let animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 
-// Create the secretMessage array below
 let secretMessage = animals.map(animals => animals[0]);
 
 console.log(secretMessage.join(''));
 
 let bigNumbers = [100, 200, 300, 400, 500];
 
-// Create the smallNumbers array below
 let smallNumbers = bigNumbers.map(function(number){
   return bigNumbers[number]/100;
 });
@@ -23,3 +21,14 @@ let smallNumbers = randomNumbers.filter(number => number < 250);
 let favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
 
 let longFavoriteWords = favoriteWords.filter(word => word.length > 7);
+
+let words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
+
+
+console.log(words.some(function(word) {
+  return word.length < 6;
+}));
+
+let interestingWords = words.filter(word => word.length > 5);
+
+console.log(interestingWords.every(word =>  word.length > 5));
