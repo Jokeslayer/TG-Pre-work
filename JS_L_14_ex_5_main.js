@@ -26,7 +26,7 @@ const shortenUrl = () => {
     }, networkError => {
       console.log(networkError.message);
     }).then(jsonResponse => {
-      return jsonResponse;
+      renderResponse(jsonResponse);
     });
 }
 
